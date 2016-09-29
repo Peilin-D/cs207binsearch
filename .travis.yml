@@ -6,6 +6,6 @@ before_install:
   - pip install coveralls
 # command to run tests
 script: 
-  - pytest --cov=binsearch test.py
+  - py.test test.py
 after_success:
   - coveralls
